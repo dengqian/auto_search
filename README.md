@@ -1,4 +1,30 @@
-# 国家自然科学基金查询系统自动查询脚本
+## 功能描述
+
+国家自然科学基金查询系统自动查询脚本，可以添加多个查询条件，自动识别验证码，提交项目查询
+
+## 环境要求
+
+
+
+## 环境要求
+
+python PIL(Pillow)库, pytesseract库用于验证码识别，firefox驱动geckodriver
+
+###1.安装pip
+sudo apt-get install python-pip python-dev build-essential 
+###2.安装Pillow
+pip install Pillow
+###3.安装tesseract-ocr
+sudo add-apt-repository ppa:alex-p/tesseract-ocr
+sudo apt-get update
+### 安装OCR引擎
+sudo apt-get install tesseract-ocr
+### 安装训练数据(equ为数学公式包)
+sudo apt-get install tesseract-ocr-eng tesseract-ocr-chi-sim  tesseract-ocr-equ
+### 可以跳过，可选安装Leptonica
+sudo apt-get install liblept5  libleptonica-dev
+###4.安装pytesseract
+pip install pytesseract：
 
 ## 使用方法
 year.config为查询年份的配置文件
