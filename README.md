@@ -6,11 +6,11 @@
 
 python PIL(Pillow)库, pytesseract库用于验证码识别，firefox驱动geckodriver
 
-###1.安装pip
+### 1.安装pip
 sudo apt-get install python-pip python-dev build-essential 
-###2.安装Pillow
+### 2.安装Pillow
 pip install Pillow
-###3.安装tesseract-ocr
+### 3.安装tesseract-ocr
 sudo add-apt-repository ppa:alex-p/tesseract-ocr
 sudo apt-get update
 ### 安装OCR引擎
@@ -19,7 +19,7 @@ sudo apt-get install tesseract-ocr
 sudo apt-get install tesseract-ocr-eng tesseract-ocr-chi-sim  tesseract-ocr-equ
 ### 可以跳过，可选安装Leptonica
 sudo apt-get install liblept5  libleptonica-dev
-###4.安装pytesseract
+### 4.安装pytesseract
 pip install pytesseract：
 
 ## 使用方法
