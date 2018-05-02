@@ -1,3 +1,6 @@
+# 国家自然科学基金查询系统自动查询脚本
+
+## 使用方法
 year.config为查询年份的配置文件
 keyword.config是关键词的配置文件
 subject.config是申请代码的配置文件
