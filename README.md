@@ -4,10 +4,6 @@
 
 ## 环境要求
 
-
-
-## 环境要求
-
 python PIL(Pillow)库, pytesseract库用于验证码识别，firefox驱动geckodriver
 
 ###1.安装pip
